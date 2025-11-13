@@ -7,7 +7,7 @@ public class Numbers06 {
         myNumbers[2] = new int[1];
 
         for (int i = 0; i < myNumbers.length; i++) {
-            System.out.print(Arrays.toString(myNumbers[i]));
+            System.out.println("Panjang baris ke-" + (i + 1) + ": " + myNumbers[i].length);
         }
     }
 }
